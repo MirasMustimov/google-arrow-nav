@@ -1,0 +1,23 @@
+/* A "\25BA" marker to the left of the focused result's title — the same
+   indicator the original Web Search Navigator uses for Google results. */
+
+.grn-selected {
+  position: relative;
+  /* Without this the marker gets clipped on sub-results. See
+     https://github.com/infokiller/web-search-navigator/issues/357 */
+  overflow: visible !important;
+}
+
+.grn-selected::before {
+  content: "\25BA";
+  position: absolute;
+  left: -25px;
+  /* Inherits the title's colour, so it works in light and dark themes. */
+}
+
+/* The link keeps real focus (for Enter, Ctrl+Enter, middle click), just not a
+   focus ring on top of the marker. */
+.grn-no-outline,
+.grn-no-outline:focus {
+  outline: none !important;
+}
