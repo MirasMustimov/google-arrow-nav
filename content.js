@@ -1,5 +1,5 @@
-// Google Arrow Nav — selects the first Google result, and ↓/↑ move between
-// results. The selected result gets real DOM focus, so Enter, Ctrl+Enter and
+// Google Focus First Result — focuses the first Google result, and ↓/↑ move
+// the focus between results. It holds real DOM focus, so Enter, Ctrl+Enter and
 // middle click keep their normal browser behaviour; we never navigate ourselves.
 
 'use strict';
