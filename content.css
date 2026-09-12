@@ -21,3 +21,8 @@
 .grn-no-outline:focus {
   outline: none !important;
 }
+
+/* Without this the marker inherits the title's ~20px and reads too large. */
+.grn-selected::before {
+  font-size: 14px;
+}
