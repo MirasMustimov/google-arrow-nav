@@ -1,4 +1,4 @@
-# Google Result Nav
+# Google Arrow Nav
 
 A one-feature Chromium extension: on a Google results page the first result is
 selected — marked with a `►` before its title — so Enter opens it, and ↓/↑ move

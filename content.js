@@ -1,4 +1,4 @@
-// Google Result Nav — selects the first Google result, and ↓/↑ move between
+// Google Arrow Nav — selects the first Google result, and ↓/↑ move between
 // results. The selected result gets real DOM focus, so Enter, Ctrl+Enter and
 // middle click keep their normal browser behaviour; we never navigate ourselves.
 

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Google Result Nav",
+  "name": "Google Arrow Nav",
   "version": "1.0.0",
   "description": "Focuses the first Google search result so Enter opens it, and moves between results with the arrow keys.",
   "content_scripts": [
